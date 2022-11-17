@@ -40,13 +40,16 @@ main {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
 }
 
 #imagem {
     display: block;
     background: #590902 url(../imagens/rua-pq.jpg) no-repeat;
     background-size: cover;
-    background-position: left center;
+    background-position: center center;
     height: 200px;
 }
 
