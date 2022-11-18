@@ -16,7 +16,7 @@
         height: 100%;
     }
 
-    #formulário {
+    #formulario {
         float: right;
         width: 70%;
     }
@@ -33,13 +33,17 @@
     }
     
     #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
-    #formulário {
-        float: right;
+    #formulario {
+        float: left;
         width: 50%;
+    }
+
+    #formulario p {
+        font-size: 1.2em;
     }
 }
