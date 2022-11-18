@@ -19,7 +19,22 @@
     #formulario {
         float: right;
         width: 70%;
+        padding: 20px;
     }
+
+    #formulario h1 {
+        font-size: 2em;
+    }
+
+    #formulario p {
+        font-size: 1em;
+    }
+
+    form {
+        margin-top: 1em;
+    }
+
+
 }
 
 @media screen and (min-width: 998px) {
@@ -41,6 +56,10 @@
     #formulario {
         float: left;
         width: 50%;
+    }
+
+    #formulario h1 {
+        font-size: 2.5em;
     }
 
     #formulario p {

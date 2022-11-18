@@ -28,11 +28,11 @@ main {
     width: 100vw;
 }
 
+
 #login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;                           /*Tudo que aparecer fora do pai será escondido*/
 
     background-color: white;
@@ -41,6 +41,7 @@ main {
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
+    transform: translate(-50%, -50%);
     transition: width .2s, height .2s;
     transition-timing-function: ease;
 }
@@ -61,10 +62,12 @@ main {
 #formulario h1 {
     text-align: center;
     margin-bottom: 10px;
+    color: #590902;
 }
 
 #formulario p {
     font-size: 0.8em;
+    margin-bottom: 0.8em;
 }
 
 form > input[type=submit] {
@@ -83,6 +86,43 @@ form > input[type=submit] {
 form > input[type=submit]:hover {
     background-color: #590902;
     color: #F2B6A0;
+}
+
+.campo {
+    height: 40px;
+    width: 100%;
+    margin: 5px 0px;
+    background-color: #590902;
+    border: 2px solid #590902;
+    border-radius: 8px;
+}
+
+.campo i {
+    color: #F2B6A0;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    transform: translateY(-3px);
+}
+
+.campo input {
+    background-color: #f0c1a5;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 0px 8px 8px 0px;
+    padding: 4px;
+    
+    transform: translateY(-12px);
+}
+
+.campo input:focus-within {
+    background-color: white;
+}
+
+.campo label {
+    display: none;
 }
 
 .botao {
